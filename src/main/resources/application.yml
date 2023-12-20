@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_angular_spring
+    username: root
+    password: Password
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
