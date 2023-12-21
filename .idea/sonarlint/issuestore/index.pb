@@ -37,3 +37,7 @@ z
 Jsrc/main/java/com/gf/back/spring/security/angular/dtos/CredentialsDto.java,3/9/39881914dfe0c15cf0e7e8d47b6354e3a02f1a2c
 {
 Ksrc/main/java/com/gf/back/spring/security/angular/config/JwtAuthFilter.java,8/5/856e3d445d87a0ff5e420219b06f63478ab38cd9
+ˆ
+Xsrc/main/java/com/gf/back/spring/security/angular/config/UserAuthenticationProvider.java,9/e/9ecd8547d9b9fe1145a8bf5b615db4080edfc421
+Š
+Zsrc/main/java/com/gf/back/spring/security/angular/config/UserAuthenticationEntryPoint.java,e/e/eef003d203253281bea6f5c54c4b3b70749ea9ca
