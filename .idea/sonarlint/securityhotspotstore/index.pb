@@ -39,5 +39,7 @@ Jsrc/main/java/com/gf/back/spring/security/angular/dtos/CredentialsDto.java,3/9
 Ksrc/main/java/com/gf/back/spring/security/angular/config/JwtAuthFilter.java,8/5/856e3d445d87a0ff5e420219b06f63478ab38cd9
 ˆ
 Xsrc/main/java/com/gf/back/spring/security/angular/config/UserAuthenticationProvider.java,9/e/9ecd8547d9b9fe1145a8bf5b615db4080edfc421
-Š
-Zsrc/main/java/com/gf/back/spring/security/angular/config/UserAuthenticationEntryPoint.java,e/e/eef003d203253281bea6f5c54c4b3b70749ea9ca
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
+S
+#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
