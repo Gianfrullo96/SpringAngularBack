@@ -9,6 +9,7 @@ import com.gf.back.spring.security.angular.exception.AppException;
 import com.gf.back.spring.security.angular.mappers.UserMapper;
 import com.gf.back.spring.security.angular.repo.UserRepository;
 import lombok.RequiredArgsConstructor;
+import org.jetbrains.annotations.NotNull;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -26,7 +27,7 @@ public class UserService {
 
     private final UserMapper userMapper;
 
-    public UserDto login(CredentialsDto credentialsDto) {
+    public UserDto login(@NotNull("credentialDto was null") CredentialsDto credentialsDto) {
         User user = userRepository.findByLogin(credentialsDto.login())
                 .orElseThrow(() -> new AppException("Unknown user", HttpStatus.NOT_FOUND));
 
@@ -36,7 +37,7 @@ public class UserService {
         throw new AppException("Invalid password", HttpStatus.BAD_REQUEST);
     }
 
-    public UserDto register(SignUpDto userDto) {
+    public UserDto register(@NotNull("credentialDto was null")SignUpDto userDto) {
         Optional<User> optionalUser = userRepository.findByLogin(userDto.login());
 
         if (optionalUser.isPresent()) {
@@ -51,7 +52,7 @@ public class UserService {
         return userMapper.toUserDto(savedUser);
     }
 
-    public UserDto findByLogin(String login) {
+    public UserDto findByLogin(@NotNull("login was null") String login) {
         User user = userRepository.findByLogin(login)
                 .orElseThrow(() -> new AppException("Unknown user", HttpStatus.NOT_FOUND));
         return userMapper.toUserDto(user);

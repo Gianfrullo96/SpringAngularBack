@@ -33,3 +33,5 @@ u
 Esrc/main/java/com/gf/back/spring/security/angular/dtos/SignUpDto.java,8/6/86288aff743e5e23cb3702f093a2cbed146d5861
 s
 Csrc/main/java/com/gf/back/spring/security/angular/dtos/UserDto.java,1/c/1c1d02e10cfffd4d8102a225d40e1c588d1aeee7
+z
+Jsrc/main/java/com/gf/back/spring/security/angular/dtos/CredentialsDto.java,3/9/39881914dfe0c15cf0e7e8d47b6354e3a02f1a2c
